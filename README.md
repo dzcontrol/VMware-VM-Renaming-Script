@@ -29,4 +29,4 @@ This PowerShell script provides a robust solution for managing VMware virtual ma
 The script will then proceed to rename the selected VM and update the associated descriptor files.
 
 **Note**: Ensure that you have the necessary permissions to modify the VM files and always have backups before making changes.
-
+ 
