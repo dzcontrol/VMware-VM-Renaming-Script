@@ -10,3 +10,23 @@ This PowerShell script provides a robust solution for managing VMware virtual ma
 - **Safe Update Mechanism**: Prompts for user confirmation before modifying any `.vmdk` descriptor files.
 - **Renaming and Updating**: Renames the VM directory and updates all relevant files, ensuring consistency.
 - **Compatibility**: Designed to work seamlessly in VMware environments, streamlining VM management tasks.
+
+- ### How to Use
+
+1. **Open PowerShell**: Start PowerShell on your system. You may need to run it as an administrator depending on your system's configuration.
+
+2. **Navigate to the Script Location**: Use the `cd` command to navigate to the directory where the `renameVM.ps1` script is located.
+
+3. **Execute the Script**: Run the script by entering `.\renameVM.ps1`. 
+
+4. **Enter Required Information**:
+    - When prompted, enter the path to the directory containing your VMware VMs.
+    - Choose a VM to rename by entering the corresponding number from the list.
+    - Enter the new name for the selected VM.
+
+5. **Confirm Modifications**: The script will list `.vmdk` files and highlight the descriptor files in red. Confirm the modifications when prompted.
+
+The script will then proceed to rename the selected VM and update the associated descriptor files.
+
+**Note**: Ensure that you have the necessary permissions to modify the VM files and always have backups before making changes.
+
